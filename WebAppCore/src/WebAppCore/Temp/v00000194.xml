@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optimizationVariable primeID="v00000194" type="factorial" xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/optimizationVariable.xsd">
+  <copyright>©primekinetics.org 2015</copyright>
+  <preferredKey group="prime">A(H2 + O = OH + H)</preferredKey>
+  <variable id="x" transformation="log10">
+    <actualVariable id="a" type="value">
+      <propertyLink id="a" parameterName="a" reactionPrimeID="r00012186" reactionRatePrimeID="rk00000090" />
+    </actualVariable>
+  </variable>
+  <additionalDataItem itemType="text" description="optimization variable description">Pre-exponential factor of reaction A(H2 + O = OH + H)</additionalDataItem>
+</optimizationVariable>

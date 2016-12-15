@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bibliography xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="b00000000" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/bibliography.xsd">
+  <copyright>©primekinetics.org 2005</copyright>
+  <content bibliography="b00000000" copyrighted="true" source="©NIST">Elements attributed to NIST are part of a collection copyrighted by NIST.</content>
+  <preferredKey type="squib">1953BER/LER50-54</preferredKey>
+  <referenceType>journal article</referenceType>
+  <referenceStatus>published</referenceStatus>
+  <author source="©NIST">Berlie, M.R.</author>
+  <author source="©NIST">Le Roy, D.J.</author>
+  <year source="©NIST">1953</year>
+  <title source="©NIST">The reaction of atomic hydrogen with ethane</title>
+  <journal source="©NIST">Discuss. Faraday Soc.</journal>
+  <pages source="©NIST">50</pages>
+  <keyword>c2h6+h expt</keyword>
+  
+</bibliography>

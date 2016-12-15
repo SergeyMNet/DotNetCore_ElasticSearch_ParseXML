@@ -1,0 +1,1635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="x00000340" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/experiment.xsd ">
+  <copyright>primekinetics.org 2008</copyright>
+  <bibliographyLink preferredKey="Frenklach et al., 1995." primeID="b00014724" />
+  <bibliographyLink preferredKey="Rohrig, M. et al., 1997." primeID="b00011255" />
+  <apparatus>
+    <kind>shock tube</kind>
+    <mode>reflected shock</mode>
+  </apparatus>
+  <commonProperties>
+    <property description="" label="T" name="temperature" units="K">
+      <value>1717</value>
+    </property>
+    <property description="" label="P" name="pressure" units="atm">
+      <value>0.54</value>
+    </property>
+    <property description="" label="fuel mole fraction" name="composition" units="ppm">
+      <value>247</value>
+    </property>
+    <property description="" label="oxygen mole fraction" name="composition" units="ppm">
+      <value>1055</value>
+    </property>
+    <property description="" label="methne mole fraction" name="composition" units="ppm">
+      <value>0</value>
+    </property>
+    <property description="" label="Equicvalence ratio" name="equivalence ratio" units="unitless">
+      <value>0.98</value>
+    </property>
+    <property name="initial composition">
+      <component>
+        <speciesLink preferredKey="C2H6" primeID="s00002784" />
+      </component>
+    </property>
+  </commonProperties>
+  <dataGroup id="dg1" label="Ethane Table 1">
+    <dataGroupLink dataGroupID="" dataPointID="" />
+    <property description="" id="x1" label="T2" name="temperature" units="K" />
+    <property description="" id="x2" label="P2" name="pressure" units="Pa" />
+    <property description="" id="x3" label="Ethane" name="composition" units="ppm" />
+    <property description="" id="x4" label="Oxygen" name="composition" units="ppm" />
+    <property description="" id="x5" label="Co2" name="composition" units="ppm" />
+    <property description="" id="x6" label="Plateau co2" name="composition" units="ppm" />
+    <property description="" id="x7" label="1/4Plat" name="time" units="µs" />
+    <dataPoint id="dp1">
+      <x1>2216</x1>
+      <x2>0.62</x2>
+      <x3>2012</x3>
+      <x4>7062</x4>
+      <x5>1455</x5>
+      <x6>2568</x6>
+      <x7>133</x7>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>2497</x1>
+      <x2>0.537</x2>
+      <x3>2012</x3>
+      <x4>7062</x4>
+      <x5>1123</x5>
+      <x6>1475</x6>
+      <x7>68</x7>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg2" label="Ethane Table 2">
+    <dataGroupLink dataGroupID="" dataPointID="" />
+    <property description="" id="x1" label="T5" name="temperature" units="K" />
+    <property description="" id="x2" label="P5" name="pressure" units="atm" />
+    <property description="" id="x3" label="ethane" name="composition" units="ppm" />
+    <property description="" id="x4" label="methane" name="composition" units="ppm" />
+    <property description="" id="x5" label="oxygen" name="composition" units="ppm" />
+    <property description="" id="x6" label="peak ch3" name="composition" units="ppm" />
+    <property description="" id="x7" label="t" name="time" units="µs" />
+    <dataPoint id="dp1">
+      <x1>1794</x1>
+      <x2>1.166</x2>
+      <x3>295</x3>
+      <x4>0</x4>
+      <x5>1055</x5>
+      <x6>342</x6>
+      <x7>59</x7>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>1717</x1>
+      <x2>1.201</x2>
+      <x3>247</x3>
+      <x4>503</x4>
+      <x5>1855</x5>
+      <x6>80</x6>
+      <x7>256</x7>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>1759</x1>
+      <x2>1.163</x2>
+      <x3>247</x3>
+      <x4>503</x4>
+      <x5>1855</x5>
+      <x6>55</x6>
+      <x7>302</x7>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1785</x1>
+      <x2>1.181</x2>
+      <x3>247</x3>
+      <x4>503</x4>
+      <x5>1855</x5>
+      <x6>67</x6>
+      <x7>297</x7>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1844</x1>
+      <x2>1.223</x2>
+      <x3>247</x3>
+      <x4>503</x4>
+      <x5>1855</x5>
+      <x6>48</x6>
+      <x7>321</x7>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg3" label="Ethane Table 3">
+    <dataGroupLink dataGroupID="" dataPointID="" />
+    <property description="" id="x1" label="T5" name="temperature" units="K" />
+    <property description="" id="x2" label="P5" name="pressure" units="atm" />
+    <property description="" id="x3" label="ethane" name="composition" units="ppm" />
+    <property description="" id="x4" label="oxygen" name="composition" units="ppm" />
+    <property description="" id="x5" label="Max OH" name="composition" units="ppm" />
+    <property description="" id="x6" label="1/2 Max" name="time" units="µs" />
+    <dataPoint id="dp1">
+      <x1>1757</x1>
+      <x2>1.179</x2>
+      <x3>300</x3>
+      <x4>1052</x4>
+      <x5>94</x5>
+      <x6>250</x6>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>1817</x1>
+      <x2>1.209</x2>
+      <x3>300</x3>
+      <x4>1052</x4>
+      <x5>100</x5>
+      <x6>195</x6>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>2012</x1>
+      <x2>1.183</x2>
+      <x3>300</x3>
+      <x4>1052</x4>
+      <x5>100</x5>
+      <x6>195</x6>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg4" label="Figure 1">
+    <dataGroupLink dataGroupID="" dataPointID="" />
+    <property description="" id="x1" label="t" name="time" units="µs" />
+    <property description="" id="x2" label="co2" name="composition" units="ppm" />
+    <dataPoint id="dp1">
+      <x1>-90.919</x1>
+      <x2>-23.131</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>-74.97</x1>
+      <x2>-23.225</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>-55.831</x1>
+      <x2>-23.338</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>-31.911</x1>
+      <x2>-29.397</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>-12.769</x1>
+      <x2>-23.593</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>-4.7821</x1>
+      <x2>5.9455</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.6636</x1>
+      <x2>159.75</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>3.2</x1>
+      <x2>23.65</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>15.957</x1>
+      <x2>17.657</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>31.933</x1>
+      <x2>82.651</x2>
+    </dataPoint>
+    <dataPoint id="dp11">
+      <x1>57.498</x1>
+      <x2>189.01</x2>
+    </dataPoint>
+    <dataPoint id="dp12">
+      <x1>75.095</x1>
+      <x2>313.17</x2>
+    </dataPoint>
+    <dataPoint id="dp13">
+      <x1>99.097</x1>
+      <x2>496.46</x2>
+    </dataPoint>
+    <dataPoint id="dp14">
+      <x1>143.83</x1>
+      <x2>679.62</x2>
+    </dataPoint>
+    <dataPoint id="dp15">
+      <x1>183.78</x1>
+      <x2>862.82</x2>
+    </dataPoint>
+    <dataPoint id="dp16">
+      <x1>238.08</x1>
+      <x2>1034.1</x2>
+    </dataPoint>
+    <dataPoint id="dp17">
+      <x1>290.75</x1>
+      <x2>1104.8</x2>
+    </dataPoint>
+    <dataPoint id="dp18">
+      <x1>324.27</x1>
+      <x2>1169.7</x2>
+    </dataPoint>
+    <dataPoint id="dp19">
+      <x1>376.92</x1>
+      <x2>1216.7</x2>
+    </dataPoint>
+    <dataPoint id="dp20">
+      <x1>412.04</x1>
+      <x2>1305.3</x2>
+    </dataPoint>
+    <dataPoint id="dp21">
+      <x1>450.34</x1>
+      <x2>1340.5</x2>
+    </dataPoint>
+    <dataPoint id="dp22">
+      <x1>480.62</x1>
+      <x2>1298.9</x2>
+    </dataPoint>
+    <dataPoint id="dp23">
+      <x1>536.42</x1>
+      <x2>1245.3</x2>
+    </dataPoint>
+    <dataPoint id="dp24">
+      <x1>568.34</x1>
+      <x2>1286.6</x2>
+    </dataPoint>
+    <dataPoint id="dp25">
+      <x1>613</x1>
+      <x2>1292.2</x2>
+    </dataPoint>
+    <dataPoint id="dp26">
+      <x1>651.31</x1>
+      <x2>1368.9</x2>
+    </dataPoint>
+    <dataPoint id="dp27">
+      <x1>689.57</x1>
+      <x2>1327.3</x2>
+    </dataPoint>
+    <dataPoint id="dp28">
+      <x1>716.7</x1>
+      <x2>1368.5</x2>
+    </dataPoint>
+    <dataPoint id="dp29">
+      <x1>737.41</x1>
+      <x2>1327</x2>
+    </dataPoint>
+    <dataPoint id="dp30">
+      <x1>758.16</x1>
+      <x2>1362.4</x2>
+    </dataPoint>
+    <dataPoint id="dp31">
+      <x1>796.45</x1>
+      <x2>1385.8</x2>
+    </dataPoint>
+    <dataPoint id="dp32">
+      <x1>834.73</x1>
+      <x2>1385.6</x2>
+    </dataPoint>
+    <dataPoint id="dp33">
+      <x1>866.64</x1>
+      <x2>1426.8</x2>
+    </dataPoint>
+    <dataPoint id="dp34">
+      <x1>892.12</x1>
+      <x2>1343.8</x2>
+    </dataPoint>
+    <dataPoint id="dp35">
+      <x1>944.78</x1>
+      <x2>1408.6</x2>
+    </dataPoint>
+    <dataPoint id="dp36">
+      <x1>971.91</x1>
+      <x2>1444</x2>
+    </dataPoint>
+    <dataPoint id="dp37">
+      <x1>989.45</x1>
+      <x2>1432</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg5" label="Figure 2">
+    <dataGroupLink dataGroupID="" dataPointID="" />
+    <property description="" id="x1" label="t" name="time" units="µs" />
+    <property description="" id="x2" label="ch3" name="composition" units="ppm" />
+    <dataPoint id="dp1">
+      <x1>-37.77</x1>
+      <x2>-1.4685</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>-30.723</x1>
+      <x2>-0.45491</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>-21.773</x1>
+      <x2>-1.8461</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>-12.798</x1>
+      <x2>0.30202</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>-3.8476</x1>
+      <x2>-1.0891</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>-1.8951</x1>
+      <x2>3.5845</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>0.18429</x1>
+      <x2>395.28</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>1.288</x1>
+      <x2>1.1495</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>1.4108</x1>
+      <x2>18.846</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>4.298</x1>
+      <x2>65.975</x2>
+    </dataPoint>
+    <dataPoint id="dp11">
+      <x1>9.7858</x1>
+      <x2>118.94</x2>
+    </dataPoint>
+    <dataPoint id="dp12">
+      <x1>17.324</x1>
+      <x2>190.74</x2>
+    </dataPoint>
+    <dataPoint id="dp13">
+      <x1>25.445</x1>
+      <x2>254.27</x2>
+    </dataPoint>
+    <dataPoint id="dp14">
+      <x1>37.316</x1>
+      <x2>304.72</x2>
+    </dataPoint>
+    <dataPoint id="dp15">
+      <x1>52.263</x1>
+      <x2>337.41</x2>
+    </dataPoint>
+    <dataPoint id="dp16">
+      <x1>68.842</x1>
+      <x2>328.76</x2>
+    </dataPoint>
+    <dataPoint id="dp17">
+      <x1>82.059</x1>
+      <x2>296.59</x2>
+    </dataPoint>
+    <dataPoint id="dp18">
+      <x1>95.202</x1>
+      <x2>253.8</x2>
+    </dataPoint>
+    <dataPoint id="dp19">
+      <x1>112.8</x1>
+      <x2>207.37</x2>
+    </dataPoint>
+    <dataPoint id="dp20">
+      <x1>127.21</x1>
+      <x2>162.19</x2>
+    </dataPoint>
+    <dataPoint id="dp21">
+      <x1>146.11</x1>
+      <x2>119.27</x2>
+    </dataPoint>
+    <dataPoint id="dp22">
+      <x1>168.92</x1>
+      <x2>86.869</x2>
+    </dataPoint>
+    <dataPoint id="dp23">
+      <x1>192.44</x1>
+      <x2>62.715</x2>
+    </dataPoint>
+    <dataPoint id="dp24">
+      <x1>222.38</x1>
+      <x2>43.13</x2>
+    </dataPoint>
+    <dataPoint id="dp25">
+      <x1>247.93</x1>
+      <x2>35.447</x2>
+    </dataPoint>
+    <dataPoint id="dp26">
+      <x1>283.08</x1>
+      <x2>28.718</x2>
+    </dataPoint>
+    <dataPoint id="dp27">
+      <x1>316.31</x1>
+      <x2>22.034</x2>
+    </dataPoint>
+    <dataPoint id="dp28">
+      <x1>343.15</x1>
+      <x2>15.501</x2>
+    </dataPoint>
+    <dataPoint id="dp29">
+      <x1>368.72</x1>
+      <x2>11.358</x2>
+    </dataPoint>
+    <dataPoint id="dp30">
+      <x1>398.79</x1>
+      <x2>10.648</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg6" label="Figure 3">
+    <dataGroupLink dataGroupID="" dataPointID="" />
+    <property description="" id="x1" label="t" name="time" units="µs" />
+    <property description="" id="x2" label="oh" name="composition" units="mole fraction" />
+    <dataPoint id="dp1">
+      <x1>-76.432</x1>
+      <x2>0.084053</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>-68.785</x1>
+      <x2>0.51553</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>-64.963</x1>
+      <x2>0.51132</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>-62.314</x1>
+      <x2>11.505</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>-62.416</x1>
+      <x2>0.50852</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>-50.955</x1>
+      <x2>0.056035</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>-31.847</x1>
+      <x2>0.035022</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>-16.56</x1>
+      <x2>0.018212</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>-1.2698</x1>
+      <x2>0.44128</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>-0.81138</x1>
+      <x2>50.148</x2>
+    </dataPoint>
+    <dataPoint id="dp11">
+      <x1>1.282</x1>
+      <x2>0.87836</x2>
+    </dataPoint>
+    <dataPoint id="dp12">
+      <x1>7.6513</x1>
+      <x2>0.87135</x2>
+    </dataPoint>
+    <dataPoint id="dp13">
+      <x1>26.772</x1>
+      <x2>2.17</x2>
+    </dataPoint>
+    <dataPoint id="dp14">
+      <x1>45.924</x1>
+      <x2>6.9876</x2>
+    </dataPoint>
+    <dataPoint id="dp15">
+      <x1>66.359</x1>
+      <x2>12.684</x2>
+    </dataPoint>
+    <dataPoint id="dp16">
+      <x1>93.191</x1>
+      <x2>21.452</x2>
+    </dataPoint>
+    <dataPoint id="dp17">
+      <x1>126.41</x1>
+      <x2>32.412</x2>
+    </dataPoint>
+    <dataPoint id="dp18">
+      <x1>158.33</x1>
+      <x2>40.295</x2>
+    </dataPoint>
+    <dataPoint id="dp19">
+      <x1>187.71</x1>
+      <x2>48.621</x2>
+    </dataPoint>
+    <dataPoint id="dp20">
+      <x1>220.91</x1>
+      <x2>57.382</x2>
+    </dataPoint>
+    <dataPoint id="dp21">
+      <x1>261.76</x1>
+      <x2>66.574</x2>
+    </dataPoint>
+    <dataPoint id="dp22">
+      <x1>298.78</x1>
+      <x2>74.891</x2>
+    </dataPoint>
+    <dataPoint id="dp23">
+      <x1>339.62</x1>
+      <x2>83.644</x2>
+    </dataPoint>
+    <dataPoint id="dp24">
+      <x1>379.18</x1>
+      <x2>90.639</x2>
+    </dataPoint>
+    <dataPoint id="dp25">
+      <x1>412.33</x1>
+      <x2>94.121</x2>
+    </dataPoint>
+    <dataPoint id="dp26">
+      <x1>456.95</x1>
+      <x2>97.591</x2>
+    </dataPoint>
+    <dataPoint id="dp27">
+      <x1>509.2</x1>
+      <x2>99.733</x2>
+    </dataPoint>
+    <dataPoint id="dp28">
+      <x1>558.88</x1>
+      <x2>99.239</x2>
+    </dataPoint>
+    <dataPoint id="dp29">
+      <x1>593.28</x1>
+      <x2>99.641</x2>
+    </dataPoint>
+    <dataPoint id="dp30">
+      <x1>637.85</x1>
+      <x2>98.272</x2>
+    </dataPoint>
+    <dataPoint id="dp31">
+      <x1>683.7</x1>
+      <x2>97.782</x2>
+    </dataPoint>
+    <dataPoint id="dp32">
+      <x1>727.01</x1>
+      <x2>97.294</x2>
+    </dataPoint>
+    <dataPoint id="dp33">
+      <x1>757.59</x1>
+      <x2>97.701</x2>
+    </dataPoint>
+    <dataPoint id="dp34">
+      <x1>794.52</x1>
+      <x2>96.34</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg7" label="Ethane table 4">
+    <dataGroupLink dataGroupID="" dataPointID="" />
+    <property description="" id="x1" label="T5" name="temperature" units="K" />
+    <property description="" id="x2" label="P5" name="pressure" units="atm" />
+    <property description="" id="x3" label="ethane" name="composition" units="ppm" />
+    <property description="" id="x4" label="oxygen" name="composition" units="ppm" />
+    <property description="" id="x5" label="1st plateau" name="composition" units="ppm" />
+    <property description="" id="x6" label="Peak CH" name="composition" units="ppm" />
+    <property description="" id="x7" label="Peak" name="time" units="µs" />
+    <dataPoint id="dp1">
+      <x1>2450</x1>
+      <x2>1.2</x2>
+      <x3>100</x3>
+      <x4>1002</x4>
+      <x5>0.35</x5>
+      <x6>7.5</x6>
+      <x7>70</x7>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>2121</x1>
+      <x2>1.1</x2>
+      <x3>150</x3>
+      <x4>972</x4>
+      <x5>0.54</x5>
+      <x6>6.5</x6>
+      <x7>100</x7>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg8" label="">
+    <dataGroupLink dataGroupID="" dataPointID="" />
+    <property description="" id="x1" label="t" name="time" units="µs" />
+    <property description="" id="x2" label="ch" name="composition" units="ppm" />
+    <dataPoint id="dp1">
+      <x1>-19.538</x1>
+      <x2>0.036966</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>-18.998</x1>
+      <x2>-0.00040584</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>-16.323</x1>
+      <x2>-0.00034868</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>-15.792</x1>
+      <x2>0.037046</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>-15.249</x1>
+      <x2>-0.033971</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>-12.58</x1>
+      <x2>0.033376</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>-11.771</x1>
+      <x2>-0.02642</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>-10.44</x1>
+      <x2>0.040898</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>-8.5647</x1>
+      <x2>0.018509</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>-8.2996</x1>
+      <x2>0.040944</x2>
+    </dataPoint>
+    <dataPoint id="dp11">
+      <x1>-7.7616</x1>
+      <x2>0.014787</x2>
+    </dataPoint>
+    <dataPoint id="dp12">
+      <x1>-6.6941</x1>
+      <x2>0.040978</x2>
+    </dataPoint>
+    <dataPoint id="dp13">
+      <x1>-5.3545</x1>
+      <x2>0.026054</x2>
+    </dataPoint>
+    <dataPoint id="dp14">
+      <x1>-3.7445</x1>
+      <x2>-0.015033</x2>
+    </dataPoint>
+    <dataPoint id="dp15">
+      <x1>-3.2151</x1>
+      <x2>0.037315</x2>
+    </dataPoint>
+    <dataPoint id="dp16">
+      <x1>-1.072</x1>
+      <x2>0.01493</x2>
+    </dataPoint>
+    <dataPoint id="dp17">
+      <x1>-0.85308</x1>
+      <x2>0.45979</x2>
+    </dataPoint>
+    <dataPoint id="dp18">
+      <x1>-0.93245</x1>
+      <x2>1.185</x2>
+    </dataPoint>
+    <dataPoint id="dp19">
+      <x1>0.67264</x1>
+      <x2>1.1888</x2>
+    </dataPoint>
+    <dataPoint id="dp20">
+      <x1>1.743</x1>
+      <x2>1.1888</x2>
+    </dataPoint>
+    <dataPoint id="dp21">
+      <x1>2.0445</x1>
+      <x2>0.87855</x2>
+    </dataPoint>
+    <dataPoint id="dp22">
+      <x1>1.8027</x1>
+      <x2>0.64303</x2>
+    </dataPoint>
+    <dataPoint id="dp23">
+      <x1>2.0977</x1>
+      <x2>0.39257</x2>
+    </dataPoint>
+    <dataPoint id="dp24">
+      <x1>2.4181</x1>
+      <x2>-0.089668</x2>
+    </dataPoint>
+    <dataPoint id="dp25">
+      <x1>3.1987</x1>
+      <x2>0.11222</x2>
+    </dataPoint>
+    <dataPoint id="dp26">
+      <x1>3.6799</x1>
+      <x2>0.60569</x2>
+    </dataPoint>
+    <dataPoint id="dp27">
+      <x1>5.0448</x1>
+      <x2>0.35899</x2>
+    </dataPoint>
+    <dataPoint id="dp28">
+      <x1>6.6303</x1>
+      <x2>0.5422</x2>
+    </dataPoint>
+    <dataPoint id="dp29">
+      <x1>7.4379</x1>
+      <x2>0.49736</x2>
+    </dataPoint>
+    <dataPoint id="dp30">
+      <x1>9.0361</x1>
+      <x2>0.56468</x2>
+    </dataPoint>
+    <dataPoint id="dp31">
+      <x1>10.923</x1>
+      <x2>0.44135</x2>
+    </dataPoint>
+    <dataPoint id="dp32">
+      <x1>11.179</x1>
+      <x2>0.54229</x2>
+    </dataPoint>
+    <dataPoint id="dp33">
+      <x1>11.991</x1>
+      <x2>0.46007</x2>
+    </dataPoint>
+    <dataPoint id="dp34">
+      <x1>13.053</x1>
+      <x2>0.53112</x2>
+    </dataPoint>
+    <dataPoint id="dp35">
+      <x1>14.402</x1>
+      <x2>0.43395</x2>
+    </dataPoint>
+    <dataPoint id="dp36">
+      <x1>15.197</x1>
+      <x2>0.50126</x2>
+    </dataPoint>
+    <dataPoint id="dp37">
+      <x1>17.336</x1>
+      <x2>0.51626</x2>
+    </dataPoint>
+    <dataPoint id="dp38">
+      <x1>17.342</x1>
+      <x2>0.46766</x2>
+    </dataPoint>
+    <dataPoint id="dp39">
+      <x1>19.208</x1>
+      <x2>0.53499</x2>
+    </dataPoint>
+    <dataPoint id="dp40">
+      <x1>20.28</x1>
+      <x2>0.51258</x2>
+    </dataPoint>
+    <dataPoint id="dp41">
+      <x1>21.89</x1>
+      <x2>0.4715</x2>
+    </dataPoint>
+    <dataPoint id="dp42">
+      <x1>22.687</x1>
+      <x2>0.52385</x2>
+    </dataPoint>
+    <dataPoint id="dp43">
+      <x1>24.826</x1>
+      <x2>0.54259</x2>
+    </dataPoint>
+    <dataPoint id="dp44">
+      <x1>26.166</x1>
+      <x2>0.52019</x2>
+    </dataPoint>
+    <dataPoint id="dp45">
+      <x1>26.161</x1>
+      <x2>0.56878</x2>
+    </dataPoint>
+    <dataPoint id="dp46">
+      <x1>28.306</x1>
+      <x2>0.52771</x2>
+    </dataPoint>
+    <dataPoint id="dp47">
+      <x1>28.835</x1>
+      <x2>0.58753</x2>
+    </dataPoint>
+    <dataPoint id="dp48">
+      <x1>30.176</x1>
+      <x2>0.55392</x2>
+    </dataPoint>
+    <dataPoint id="dp49">
+      <x1>30.974</x1>
+      <x2>0.60253</x2>
+    </dataPoint>
+    <dataPoint id="dp50">
+      <x1>32.047</x1>
+      <x2>0.57265</x2>
+    </dataPoint>
+    <dataPoint id="dp51">
+      <x1>32.044</x1>
+      <x2>0.60629</x2>
+    </dataPoint>
+    <dataPoint id="dp52">
+      <x1>33.121</x1>
+      <x2>0.54276</x2>
+    </dataPoint>
+    <dataPoint id="dp53">
+      <x1>33.377</x1>
+      <x2>0.64744</x2>
+    </dataPoint>
+    <dataPoint id="dp54">
+      <x1>35.252</x1>
+      <x2>0.62879</x2>
+    </dataPoint>
+    <dataPoint id="dp55">
+      <x1>35.786</x1>
+      <x2>0.64002</x2>
+    </dataPoint>
+    <dataPoint id="dp56">
+      <x1>37.395</x1>
+      <x2>0.61014</x2>
+    </dataPoint>
+    <dataPoint id="dp57">
+      <x1>37.933</x1>
+      <x2>0.58025</x2>
+    </dataPoint>
+    <dataPoint id="dp58">
+      <x1>38.195</x1>
+      <x2>0.63259</x2>
+    </dataPoint>
+    <dataPoint id="dp59">
+      <x1>39.804</x1>
+      <x2>0.60272</x2>
+    </dataPoint>
+    <dataPoint id="dp60">
+      <x1>42.479</x1>
+      <x2>0.61025</x2>
+    </dataPoint>
+    <dataPoint id="dp61">
+      <x1>42.207</x1>
+      <x2>0.65511</x2>
+    </dataPoint>
+    <dataPoint id="dp62">
+      <x1>43.274</x1>
+      <x2>0.67756</x2>
+    </dataPoint>
+    <dataPoint id="dp63">
+      <x1>43.811</x1>
+      <x2>0.66262</x2>
+    </dataPoint>
+    <dataPoint id="dp64">
+      <x1>44.875</x1>
+      <x2>0.72245</x2>
+    </dataPoint>
+    <dataPoint id="dp65">
+      <x1>46.486</x1>
+      <x2>0.67389</x2>
+    </dataPoint>
+    <dataPoint id="dp66">
+      <x1>49.16</x1>
+      <x2>0.69264</x2>
+    </dataPoint>
+    <dataPoint id="dp67">
+      <x1>48.895</x1>
+      <x2>0.66647</x2>
+    </dataPoint>
+    <dataPoint id="dp68">
+      <x1>49.163</x1>
+      <x2>0.66647</x2>
+    </dataPoint>
+    <dataPoint id="dp69">
+      <x1>51.302</x1>
+      <x2>0.67773</x2>
+    </dataPoint>
+    <dataPoint id="dp70">
+      <x1>51.296</x1>
+      <x2>0.73007</x2>
+    </dataPoint>
+    <dataPoint id="dp71">
+      <x1>52.907</x1>
+      <x2>0.68524</x2>
+    </dataPoint>
+    <dataPoint id="dp72">
+      <x1>54.778</x1>
+      <x2>0.70024</x2>
+    </dataPoint>
+    <dataPoint id="dp73">
+      <x1>56.118</x1>
+      <x2>0.68157</x2>
+    </dataPoint>
+    <dataPoint id="dp74">
+      <x1>56.927</x1>
+      <x2>0.62925</x2>
+    </dataPoint>
+    <dataPoint id="dp75">
+      <x1>57.989</x1>
+      <x2>0.7003</x2>
+    </dataPoint>
+    <dataPoint id="dp76">
+      <x1>60.128</x1>
+      <x2>0.71904</x2>
+    </dataPoint>
+    <dataPoint id="dp77">
+      <x1>60.66</x1>
+      <x2>0.74522</x2>
+    </dataPoint>
+    <dataPoint id="dp78">
+      <x1>61.736</x1>
+      <x2>0.69665</x2>
+    </dataPoint>
+    <dataPoint id="dp79">
+      <x1>62.794</x1>
+      <x2>0.80508</x2>
+    </dataPoint>
+    <dataPoint id="dp80">
+      <x1>63.602</x1>
+      <x2>0.76024</x2>
+    </dataPoint>
+    <dataPoint id="dp81">
+      <x1>64.934</x1>
+      <x2>0.80886</x2>
+    </dataPoint>
+    <dataPoint id="dp82">
+      <x1>64.668</x1>
+      <x2>0.7939</x2>
+    </dataPoint>
+    <dataPoint id="dp83">
+      <x1>66.542</x1>
+      <x2>0.79394</x2>
+    </dataPoint>
+    <dataPoint id="dp84">
+      <x1>67.617</x1>
+      <x2>0.74537</x2>
+    </dataPoint>
+    <dataPoint id="dp85">
+      <x1>68.954</x1>
+      <x2>0.75287</x2>
+    </dataPoint>
+    <dataPoint id="dp86">
+      <x1>69.762</x1>
+      <x2>0.70429</x2>
+    </dataPoint>
+    <dataPoint id="dp87">
+      <x1>69.757</x1>
+      <x2>0.74915</x2>
+    </dataPoint>
+    <dataPoint id="dp88">
+      <x1>71.629</x1>
+      <x2>0.76415</x2>
+    </dataPoint>
+    <dataPoint id="dp89">
+      <x1>72.435</x1>
+      <x2>0.738</x2>
+    </dataPoint>
+    <dataPoint id="dp90">
+      <x1>74.307</x1>
+      <x2>0.74551</x2>
+    </dataPoint>
+    <dataPoint id="dp91">
+      <x1>74.576</x1>
+      <x2>0.72683</x2>
+    </dataPoint>
+    <dataPoint id="dp92">
+      <x1>75.376</x1>
+      <x2>0.75301</x2>
+    </dataPoint>
+    <dataPoint id="dp93">
+      <x1>76.447</x1>
+      <x2>0.75303</x2>
+    </dataPoint>
+    <dataPoint id="dp94">
+      <x1>76.716</x1>
+      <x2>0.73809</x2>
+    </dataPoint>
+    <dataPoint id="dp95">
+      <x1>76.711</x1>
+      <x2>0.78295</x2>
+    </dataPoint>
+    <dataPoint id="dp96">
+      <x1>78.595</x1>
+      <x2>0.68205</x2>
+    </dataPoint>
+    <dataPoint id="dp97">
+      <x1>78.862</x1>
+      <x2>0.68954</x2>
+    </dataPoint>
+    <dataPoint id="dp98">
+      <x1>81</x1>
+      <x2>0.70827</x2>
+    </dataPoint>
+    <dataPoint id="dp99">
+      <x1>81.808</x1>
+      <x2>0.66343</x2>
+    </dataPoint>
+    <dataPoint id="dp100">
+      <x1>82.613</x1>
+      <x2>0.64849</x2>
+    </dataPoint>
+    <dataPoint id="dp101">
+      <x1>82.607</x1>
+      <x2>0.69709</x2>
+    </dataPoint>
+    <dataPoint id="dp102">
+      <x1>83.682</x1>
+      <x2>0.65225</x2>
+    </dataPoint>
+    <dataPoint id="dp103">
+      <x1>85.556</x1>
+      <x2>0.65229</x2>
+    </dataPoint>
+    <dataPoint id="dp104">
+      <x1>86.361</x1>
+      <x2>0.62614</x2>
+    </dataPoint>
+    <dataPoint id="dp105">
+      <x1>88.504</x1>
+      <x2>0.60376</x2>
+    </dataPoint>
+    <dataPoint id="dp106">
+      <x1>90.649</x1>
+      <x2>0.56268</x2>
+    </dataPoint>
+    <dataPoint id="dp107">
+      <x1>90.917</x1>
+      <x2>0.55895</x2>
+    </dataPoint>
+    <dataPoint id="dp108">
+      <x1>92.787</x1>
+      <x2>0.59264</x2>
+    </dataPoint>
+    <dataPoint id="dp109">
+      <x1>92.792</x1>
+      <x2>0.54778</x2>
+    </dataPoint>
+    <dataPoint id="dp110">
+      <x1>94.668</x1>
+      <x2>0.52165</x2>
+    </dataPoint>
+    <dataPoint id="dp111">
+      <x1>96.541</x1>
+      <x2>0.51795</x2>
+    </dataPoint>
+    <dataPoint id="dp112">
+      <x1>97.072</x1>
+      <x2>0.55908</x2>
+    </dataPoint>
+    <dataPoint id="dp113">
+      <x1>98.951</x1>
+      <x2>0.49931</x2>
+    </dataPoint>
+    <dataPoint id="dp114">
+      <x1>100.56</x1>
+      <x2>0.46944</x2>
+    </dataPoint>
+    <dataPoint id="dp115">
+      <x1>100.83</x1>
+      <x2>0.45449</x2>
+    </dataPoint>
+    <dataPoint id="dp116">
+      <x1>101.36</x1>
+      <x2>0.51431</x2>
+    </dataPoint>
+    <dataPoint id="dp117">
+      <x1>102.96</x1>
+      <x2>0.51061</x2>
+    </dataPoint>
+    <dataPoint id="dp118">
+      <x1>104.57</x1>
+      <x2>0.46205</x2>
+    </dataPoint>
+    <dataPoint id="dp119">
+      <x1>105.64</x1>
+      <x2>0.4845</x2>
+    </dataPoint>
+    <dataPoint id="dp120">
+      <x1>108.05</x1>
+      <x2>0.4696</x2>
+    </dataPoint>
+    <dataPoint id="dp121">
+      <x1>109.66</x1>
+      <x2>0.48085</x2>
+    </dataPoint>
+    <dataPoint id="dp122">
+      <x1>109.65</x1>
+      <x2>0.51075</x2>
+    </dataPoint>
+    <dataPoint id="dp123">
+      <x1>111.53</x1>
+      <x2>0.4622</x2>
+    </dataPoint>
+    <dataPoint id="dp124">
+      <x1>112.34</x1>
+      <x2>0.41361</x2>
+    </dataPoint>
+    <dataPoint id="dp125">
+      <x1>113.14</x1>
+      <x2>0.44354</x2>
+    </dataPoint>
+    <dataPoint id="dp126">
+      <x1>115.56</x1>
+      <x2>0.36882</x2>
+    </dataPoint>
+    <dataPoint id="dp127">
+      <x1>118.5</x1>
+      <x2>0.36141</x2>
+    </dataPoint>
+    <dataPoint id="dp128">
+      <x1>119.04</x1>
+      <x2>0.34273</x2>
+    </dataPoint>
+    <dataPoint id="dp129">
+      <x1>121.18</x1>
+      <x2>0.3353</x2>
+    </dataPoint>
+    <dataPoint id="dp130">
+      <x1>121.99</x1>
+      <x2>0.28672</x2>
+    </dataPoint>
+    <dataPoint id="dp131">
+      <x1>122.52</x1>
+      <x2>0.33159</x2>
+    </dataPoint>
+    <dataPoint id="dp132">
+      <x1>123.06</x1>
+      <x2>0.27926</x2>
+    </dataPoint>
+    <dataPoint id="dp133">
+      <x1>123.32</x1>
+      <x2>0.31665</x2>
+    </dataPoint>
+    <dataPoint id="dp134">
+      <x1>126</x1>
+      <x2>0.28307</x2>
+    </dataPoint>
+    <dataPoint id="dp135">
+      <x1>127.87</x1>
+      <x2>0.28311</x2>
+    </dataPoint>
+    <dataPoint id="dp136">
+      <x1>128.95</x1>
+      <x2>0.24575</x2>
+    </dataPoint>
+    <dataPoint id="dp137">
+      <x1>128.95</x1>
+      <x2>0.26444</x2>
+    </dataPoint>
+    <dataPoint id="dp138">
+      <x1>132.16</x1>
+      <x2>0.21217</x2>
+    </dataPoint>
+    <dataPoint id="dp139">
+      <x1>133.49</x1>
+      <x2>0.27201</x2>
+    </dataPoint>
+    <dataPoint id="dp140">
+      <x1>134.3</x1>
+      <x2>0.27203</x2>
+    </dataPoint>
+    <dataPoint id="dp141">
+      <x1>135.37</x1>
+      <x2>0.24962</x2>
+    </dataPoint>
+    <dataPoint id="dp142">
+      <x1>136.17</x1>
+      <x2>0.27207</x2>
+    </dataPoint>
+    <dataPoint id="dp143">
+      <x1>137.78</x1>
+      <x2>0.19734</x2>
+    </dataPoint>
+    <dataPoint id="dp144">
+      <x1>138.85</x1>
+      <x2>0.2497</x2>
+    </dataPoint>
+    <dataPoint id="dp145">
+      <x1>139.39</x1>
+      <x2>0.2198</x2>
+    </dataPoint>
+    <dataPoint id="dp146">
+      <x1>140.19</x1>
+      <x2>0.26468</x2>
+    </dataPoint>
+    <dataPoint id="dp147">
+      <x1>141.53</x1>
+      <x2>0.21611</x2>
+    </dataPoint>
+    <dataPoint id="dp148">
+      <x1>143.67</x1>
+      <x2>0.20494</x2>
+    </dataPoint>
+    <dataPoint id="dp149">
+      <x1>145.27</x1>
+      <x2>0.21619</x2>
+    </dataPoint>
+    <dataPoint id="dp150">
+      <x1>144.48</x1>
+      <x2>0.18626</x2>
+    </dataPoint>
+    <dataPoint id="dp151">
+      <x1>145.54</x1>
+      <x2>0.21619</x2>
+    </dataPoint>
+    <dataPoint id="dp152">
+      <x1>147.15</x1>
+      <x2>0.1938</x2>
+    </dataPoint>
+    <dataPoint id="dp153">
+      <x1>147.96</x1>
+      <x2>0.15643</x2>
+    </dataPoint>
+    <dataPoint id="dp154">
+      <x1>149.03</x1>
+      <x2>0.16393</x2>
+    </dataPoint>
+    <dataPoint id="dp155">
+      <x1>149.56</x1>
+      <x2>0.22376</x2>
+    </dataPoint>
+    <dataPoint id="dp156">
+      <x1>152.24</x1>
+      <x2>0.11166</x2>
+    </dataPoint>
+    <dataPoint id="dp157">
+      <x1>152.24</x1>
+      <x2>0.14531</x2>
+    </dataPoint>
+    <dataPoint id="dp158">
+      <x1>153.31</x1>
+      <x2>0.1229</x2>
+    </dataPoint>
+    <dataPoint id="dp159">
+      <x1>153.31</x1>
+      <x2>0.14533</x2>
+    </dataPoint>
+    <dataPoint id="dp160">
+      <x1>154.92</x1>
+      <x2>0.10051</x2>
+    </dataPoint>
+    <dataPoint id="dp161">
+      <x1>157.06</x1>
+      <x2>0.089336</x2>
+    </dataPoint>
+    <dataPoint id="dp162">
+      <x1>157.59</x1>
+      <x2>0.12673</x2>
+    </dataPoint>
+    <dataPoint id="dp163">
+      <x1>158.93</x1>
+      <x2>0.13424</x2>
+    </dataPoint>
+    <dataPoint id="dp164">
+      <x1>160</x1>
+      <x2>0.12304</x2>
+    </dataPoint>
+    <dataPoint id="dp165">
+      <x1>160.81</x1>
+      <x2>0.033342</x2>
+    </dataPoint>
+    <dataPoint id="dp166">
+      <x1>161.34</x1>
+      <x2>0.11933</x2>
+    </dataPoint>
+    <dataPoint id="dp167">
+      <x1>162.14</x1>
+      <x2>0.14178</x2>
+    </dataPoint>
+    <dataPoint id="dp168">
+      <x1>162.15</x1>
+      <x2>0.085707</x2>
+    </dataPoint>
+    <dataPoint id="dp169">
+      <x1>164.29</x1>
+      <x2>0.096967</x2>
+    </dataPoint>
+    <dataPoint id="dp170">
+      <x1>163.75</x1>
+      <x2>0.070788</x2>
+    </dataPoint>
+    <dataPoint id="dp171">
+      <x1>165.63</x1>
+      <x2>0.059613</x2>
+    </dataPoint>
+    <dataPoint id="dp172">
+      <x1>166.69</x1>
+      <x2>0.11197</x2>
+    </dataPoint>
+    <dataPoint id="dp173">
+      <x1>167.5</x1>
+      <x2>0.0447</x2>
+    </dataPoint>
+    <dataPoint id="dp174">
+      <x1>168.84</x1>
+      <x2>0.093326</x2>
+    </dataPoint>
+    <dataPoint id="dp175">
+      <x1>169.64</x1>
+      <x2>0.10082</x2>
+    </dataPoint>
+    <dataPoint id="dp176">
+      <x1>170.45</x1>
+      <x2>0.029809</x2>
+    </dataPoint>
+    <dataPoint id="dp177">
+      <x1>171.78</x1>
+      <x2>0.074698</x2>
+    </dataPoint>
+    <dataPoint id="dp178">
+      <x1>172.59</x1>
+      <x2>0.022378</x2>
+    </dataPoint>
+    <dataPoint id="dp179">
+      <x1>174.73</x1>
+      <x2>0.022424</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg9" label="ethane figure 4b">
+    <dataGroupLink dataGroupID="" dataPointID="" />
+    <property description="" id="x1" label="t" name="time" units="µs" />
+    <property description="" id="x2" label="ch" name="composition" units="ppm" />
+    <dataPoint id="dp1">
+      <x1>-19.518</x1>
+      <x2>0.0018299</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>-17.705</x1>
+      <x2>0.02041</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>-15.908</x1>
+      <x2>0.012741</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>-13.217</x1>
+      <x2>-0.0062609</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>-10.219</x1>
+      <x2>-0.014042</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>-7.5161</x1>
+      <x2>-0.014295</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>-5.1026</x1>
+      <x2>0.0042284</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>-2.6845</x1>
+      <x2>0.030252</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>-1.1741</x1>
+      <x2>0.04511</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>-0.70697</x1>
+      <x2>0.32257</x2>
+    </dataPoint>
+    <dataPoint id="dp11">
+      <x1>-0.68488</x1>
+      <x2>0.85881</x2>
+    </dataPoint>
+    <dataPoint id="dp12">
+      <x1>0.11633</x1>
+      <x2>1.1925</x2>
+    </dataPoint>
+    <dataPoint id="dp13">
+      <x1>2.5754</x1>
+      <x2>0.78726</x2>
+    </dataPoint>
+    <dataPoint id="dp14">
+      <x1>2.377</x1>
+      <x2>0.45728</x2>
+    </dataPoint>
+    <dataPoint id="dp15">
+      <x1>2.5443</x1>
+      <x2>0.23601</x2>
+    </dataPoint>
+    <dataPoint id="dp16">
+      <x1>2.6507</x1>
+      <x2>-0.086499</x2>
+    </dataPoint>
+    <dataPoint id="dp17">
+      <x1>4.1246</x1>
+      <x2>0.36711</x2>
+    </dataPoint>
+    <dataPoint id="dp18">
+      <x1>4.8879</x1>
+      <x2>0.13829</x2>
+    </dataPoint>
+    <dataPoint id="dp19">
+      <x1>5.4074</x1>
+      <x2>0.0032431</x2>
+    </dataPoint>
+    <dataPoint id="dp20">
+      <x1>6.6829</x1>
+      <x2>0.12687</x2>
+    </dataPoint>
+    <dataPoint id="dp21">
+      <x1>7.2203</x1>
+      <x2>0.021823</x2>
+    </dataPoint>
+    <dataPoint id="dp22">
+      <x1>8.7556</x1>
+      <x2>0.077929</x2>
+    </dataPoint>
+    <dataPoint id="dp23">
+      <x1>10.221</x1>
+      <x2>0.017792</x2>
+    </dataPoint>
+    <dataPoint id="dp24">
+      <x1>11.147</x1>
+      <x2>0.058955</x2>
+    </dataPoint>
+    <dataPoint id="dp25">
+      <x1>12.628</x1>
+      <x2>0.025066</x2>
+    </dataPoint>
+    <dataPoint id="dp26">
+      <x1>13.551</x1>
+      <x2>0.06248</x2>
+    </dataPoint>
+    <dataPoint id="dp27">
+      <x1>14.432</x1>
+      <x2>0.028647</x2>
+    </dataPoint>
+    <dataPoint id="dp28">
+      <x1>15.642</x1>
+      <x2>0.043534</x2>
+    </dataPoint>
+    <dataPoint id="dp29">
+      <x1>18.342</x1>
+      <x2>0.03953</x2>
+    </dataPoint>
+    <dataPoint id="dp30">
+      <x1>21.045</x1>
+      <x2>0.039277</x2>
+    </dataPoint>
+    <dataPoint id="dp31">
+      <x1>23.46</x1>
+      <x2>0.061551</x2>
+    </dataPoint>
+    <dataPoint id="dp32">
+      <x1>27.08</x1>
+      <x2>0.087461</x2>
+    </dataPoint>
+    <dataPoint id="dp33">
+      <x1>31.311</x1>
+      <x2>0.13206</x2>
+    </dataPoint>
+    <dataPoint id="dp34">
+      <x1>34.329</x1>
+      <x2>0.15803</x2>
+    </dataPoint>
+    <dataPoint id="dp35">
+      <x1>40.366</x1>
+      <x2>0.20997</x2>
+    </dataPoint>
+    <dataPoint id="dp36">
+      <x1>44.609</x1>
+      <x2>0.27332</x2>
+    </dataPoint>
+    <dataPoint id="dp37">
+      <x1>47.341</x1>
+      <x2>0.32181</x2>
+    </dataPoint>
+    <dataPoint id="dp38">
+      <x1>50.632</x1>
+      <x2>0.30275</x2>
+    </dataPoint>
+    <dataPoint id="dp39">
+      <x1>53.362</x1>
+      <x2>0.3475</x2>
+    </dataPoint>
+    <dataPoint id="dp40">
+      <x1>56.085</x1>
+      <x2>0.38099</x2>
+    </dataPoint>
+    <dataPoint id="dp41">
+      <x1>59.989</x1>
+      <x2>0.38063</x2>
+    </dataPoint>
+    <dataPoint id="dp42">
+      <x1>63.301</x1>
+      <x2>0.39532</x2>
+    </dataPoint>
+    <dataPoint id="dp43">
+      <x1>65.425</x1>
+      <x2>0.43262</x2>
+    </dataPoint>
+    <dataPoint id="dp44">
+      <x1>69.058</x1>
+      <x2>0.48103</x2>
+    </dataPoint>
+    <dataPoint id="dp45">
+      <x1>71.462</x1>
+      <x2>0.48455</x2>
+    </dataPoint>
+    <dataPoint id="dp46">
+      <x1>74.795</x1>
+      <x2>0.53299</x2>
+    </dataPoint>
+    <dataPoint id="dp47">
+      <x1>78.719</x1>
+      <x2>0.56637</x2>
+    </dataPoint>
+    <dataPoint id="dp48">
+      <x1>82.647</x1>
+      <x2>0.60725</x2>
+    </dataPoint>
+    <dataPoint id="dp49">
+      <x1>87.479</x1>
+      <x2>0.6518</x2>
+    </dataPoint>
+    <dataPoint id="dp50">
+      <x1>90.773</x1>
+      <x2>0.63649</x2>
+    </dataPoint>
+    <dataPoint id="dp51">
+      <x1>94.379</x1>
+      <x2>0.6399</x2>
+    </dataPoint>
+    <dataPoint id="dp52">
+      <x1>97.993</x1>
+      <x2>0.65831</x2>
+    </dataPoint>
+    <dataPoint id="dp53">
+      <x1>100.1</x1>
+      <x2>0.66562</x2>
+    </dataPoint>
+    <dataPoint id="dp54">
+      <x1>102.5</x1>
+      <x2>0.66914</x2>
+    </dataPoint>
+    <dataPoint id="dp55">
+      <x1>108.2</x1>
+      <x2>0.65361</x2>
+    </dataPoint>
+    <dataPoint id="dp56">
+      <x1>113.61</x1>
+      <x2>0.6531</x2>
+    </dataPoint>
+    <dataPoint id="dp57">
+      <x1>117.51</x1>
+      <x2>0.65273</x2>
+    </dataPoint>
+    <dataPoint id="dp58">
+      <x1>121.4</x1>
+      <x2>0.63737</x2>
+    </dataPoint>
+    <dataPoint id="dp59">
+      <x1>127.09</x1>
+      <x2>0.61058</x2>
+    </dataPoint>
+    <dataPoint id="dp60">
+      <x1>131.58</x1>
+      <x2>0.58016</x2>
+    </dataPoint>
+    <dataPoint id="dp61">
+      <x1>135.79</x1>
+      <x2>0.58352</x2>
+    </dataPoint>
+    <dataPoint id="dp62">
+      <x1>138.78</x1>
+      <x2>0.57199</x2>
+    </dataPoint>
+    <dataPoint id="dp63">
+      <x1>143.56</x1>
+      <x2>0.53404</x2>
+    </dataPoint>
+    <dataPoint id="dp64">
+      <x1>148.35</x1>
+      <x2>0.50359</x2>
+    </dataPoint>
+    <dataPoint id="dp65">
+      <x1>153.73</x1>
+      <x2>0.45434</x2>
+    </dataPoint>
+    <dataPoint id="dp66">
+      <x1>158.83</x1>
+      <x2>0.45011</x2>
+    </dataPoint>
+    <dataPoint id="dp67">
+      <x1>162.11</x1>
+      <x2>0.41605</x2>
+    </dataPoint>
+    <dataPoint id="dp68">
+      <x1>165.11</x1>
+      <x2>0.40077</x2>
+    </dataPoint>
+    <dataPoint id="dp69">
+      <x1>168.1</x1>
+      <x2>0.37799</x2>
+    </dataPoint>
+    <dataPoint id="dp70">
+      <x1>172.87</x1>
+      <x2>0.33629</x2>
+    </dataPoint>
+    <dataPoint id="dp71">
+      <x1>176.77</x1>
+      <x2>0.32843</x2>
+    </dataPoint>
+    <dataPoint id="dp72">
+      <x1>179.16</x1>
+      <x2>0.3057</x2>
+    </dataPoint>
+    <dataPoint id="dp73">
+      <x1>183.95</x1>
+      <x2>0.279</x2>
+    </dataPoint>
+    <dataPoint id="dp74">
+      <x1>187.26</x1>
+      <x2>0.29369</x2>
+    </dataPoint>
+    <dataPoint id="dp75">
+      <x1>191.15</x1>
+      <x2>0.26333</x2>
+    </dataPoint>
+    <dataPoint id="dp76">
+      <x1>194.15</x1>
+      <x2>0.25555</x2>
+    </dataPoint>
+    <dataPoint id="dp77">
+      <x1>198.64</x1>
+      <x2>0.23263</x2>
+    </dataPoint>
+  </dataGroup>
+  <additionalDataItem itemType="text" description="preparation note" MIME=" ">
+      This file was prepared by Aditya Jami under the direction of David Golden of Stanford.
+   </additionalDataItem>
+</experiment>

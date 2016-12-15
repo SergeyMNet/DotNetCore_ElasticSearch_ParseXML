@@ -1,0 +1,15 @@
+﻿@model WebAppCore.Models.BookViewModel.SearchVM
+
+<legend class="title-page">Search books</legend>
+
+<div>
+    @await Html.PartialAsync("_SearchForm", @Model.SearchModel)
+    
+    @await Html.PartialAsync("_ResultList", @Model.Books)
+</div>
+
+
+@section scripts
+{
+    <script src="~/js/search_files.js"></script>
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bibliography xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="b00013983" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/bibliography.xsd">
+  <copyright>©primekinetics.org 2005</copyright>
+  <content bibliography="b00014319" copyrighted="true" source="©NIST">Elements attributed to NIST are part of a collection copyrighted by NIST.</content>
+  <referenceType>journal article</referenceType>
+  <referenceStatus>published</referenceStatus>
+  <author source="©NIST">Chang, A.HH.</author>
+  <author source="©NIST">Lin, S.H.</author>
+  <year source="©NIST">2004</year>
+  <title source="©NIST">A theoretical study of the O(^1D)+CH4 reaction II</title>
+  <journal source="©NIST">Chem. Phys. Lett.</journal>
+  <volume source="©NIST">384</volume>
+  <pages source="©NIST">229-235</pages>
+</bibliography>

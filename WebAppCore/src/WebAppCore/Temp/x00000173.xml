@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<experiment xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="x00000173" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/experiment.xsd">
+  <copyright>©primekinetics.org 2006</copyright>
+  <bibliographyLink preferredKey="Davidson et al., 2005" primeID="b00014711" />
+  <bibliographyLink preferredKey="Gauthier et al., 2003" primeID="b00014712" />
+  <apparatus>
+    <kind>shock tube</kind>
+    <mode>reflected shock</mode>
+    <property description="shock tube diameter" label="d" name="diameter" units="m">
+      <value>0.05</value>
+    </property>
+  </apparatus>
+  <commonProperties>
+    <property name="initial composition">
+      <component>
+        <speciesLink preferredKey="i-C8H18" primeID="s00008016" />
+        <amount units="mole fraction">0.01652</amount>
+      </component>
+      <component>
+        <speciesLink preferredKey="O2" primeID="s00010295" />
+        <amount units="mole fraction">0.207</amount>
+      </component>
+    </property>
+  </commonProperties>
+  <dataGroup id="dg1" label="Ignition delay measurements">
+    <property description="Temperature behind reflected shock waves" id="x1" label="T5" name="temperature" units="K">
+      <uncertainty bound="plusminus" kind="relative" transformation="1">0.01</uncertainty>
+    </property>
+    <property description="Pressure behind reflected shock waves" id="x2" label="P5" name="pressure" units="atm">
+      <uncertainty bound="plusminus" kind="relative" transformation="1">0.01</uncertainty>
+    </property>
+    <property description="Ignition delay" id="x3" label="Ignition Time" name="time" units="µs" />
+    <dataPoint>
+      <x1>984</x1>
+      <x2>18.1</x2>
+      <x3>1511</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>995</x1>
+      <x2>16.3</x2>
+      <x3>1535</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>1043</x1>
+      <x2>17.1</x2>
+      <x3>927</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>1077</x1>
+      <x2>18.4</x2>
+      <x3>604</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>1109</x1>
+      <x2>15.9</x2>
+      <x3>516</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>1159</x1>
+      <x2>14.9</x2>
+      <x3>214</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>855</x1>
+      <x2>56.4</x2>
+      <x3>1719</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>867</x1>
+      <x2>59.3</x2>
+      <x3>1755</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>894</x1>
+      <x2>58.5</x2>
+      <x3>1193</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>927</x1>
+      <x2>55.7</x2>
+      <x3>1067</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>975</x1>
+      <x2>51.2</x2>
+      <x3>871</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>1006</x1>
+      <x2>51.1</x2>
+      <x3>625</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>1015</x1>
+      <x2>47.8</x2>
+      <x3>505</x3>
+    </dataPoint>
+    <dataPoint>
+      <x1>1098</x1>
+      <x2>47.5</x2>
+      <x3>222</x3>
+    </dataPoint>
+  </dataGroup>
+  <additionalDataItem itemType="text" description="Ignition Delay measurements description">Ignition delay time measurement in air based on sidewall PZT pressure measurements and confirmed with CH* (at 431 nm) and OH* (at 306nm) emission measurements.</additionalDataItem>
+</experiment>

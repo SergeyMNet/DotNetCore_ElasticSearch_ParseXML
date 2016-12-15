@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<chemicalSpecies xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="s00000638" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/species.xsd">
+  <copyright>©primekinetics.org 2005</copyright>
+  <content bibliography="b00014319" copyrighted="true" source="©NIST">Elements attributed to NIST are part of a collection copyrighted by NIST.</content>
+  <preferredKey group="prime" type="formula">C10H17N</preferredKey>
+  <chemicalIdentifier>
+    <name source="©NIST" type="formula">C10H17N</name>
+    <name source="©NIST">CH2CH=CH2-N[(CH3)3C]-CH2C≡CH</name>
+    <name type="InChI">InChI=1/C10H17N/c1-6-8-11(9-7-2)10(3,4)5/h1,7H,2,8-9H2,3-5H3</name>
+  </chemicalIdentifier>
+  <chemicalComposition>
+    <atom symbol="C">10</atom>
+    <atom symbol="H">17</atom>
+    <atom symbol="N">1</atom>
+  </chemicalComposition>
+</chemicalSpecies>

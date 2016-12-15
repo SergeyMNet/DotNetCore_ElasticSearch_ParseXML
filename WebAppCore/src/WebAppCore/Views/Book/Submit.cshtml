@@ -1,0 +1,47 @@
+﻿
+<legend class="title-page">Add new book</legend>
+
+<form id="upload" method="post" enctype="multipart/form-data"
+      asp-controller="Book" asp-action="Submit">
+    
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <fieldset>
+        <div class="submit-block">
+            <input class="btn btn-info field-input" type="file" id="fileselect" name="files" multiple />
+
+            <div id="submitbutton">
+                <button type="submit" class="btn btn-success"> Upload Files </button>
+            </div>
+        </div>
+
+        <div id="filedrag">or drop files here</div>
+
+    </fieldset>
+
+</form>
+
+<div id="messages">
+    
+</div>
+
+@if (!String.IsNullOrEmpty(ViewBag.Message))
+{
+    <div class="submit-message-block" id="message-submit">
+        <button id="close-button"
+                onclick="$('#message-submit').hide(500);"
+                type="button" class="close" aria-label="Close" style="right: 0; top: 0; float: right;" >
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="submit-message-title">Message</h4>
+        <p>
+            @ViewBag.Message
+        </p>
+    </div>
+}
+
+
+@section scripts
+{
+    <script src="~/js/SubmitFiles.js"></script>">
+}

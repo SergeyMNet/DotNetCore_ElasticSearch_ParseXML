@@ -1,0 +1,1459 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<experiment primeID="x00000427" xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/experiment.xsd">
+  <copyright>©primekinetics.org 2011</copyright>
+  <bibliographyLink preferredKey="Frenklach, personal communication, 2011" primeID="b00019020" />
+  <apparatus>
+    <kind>shock tube</kind>
+    <mode>reflected shock</mode>
+    <property name="diameter" id="D_internal" label="D_internal" units="cm" description="Internal shock tube diameter">
+      <value>7.62</value>
+    </property>
+    <property name="material" label="wall_material" description="Shock tube wall material">
+      <value>stainless steel</value>
+    </property>
+    <property name="length" label="I_driver" units="m" description="Driver section length">
+      <value>3</value>
+    </property>
+    <property name="length" label="I_driven" units="m" description="Driven section length">
+      <value>7.3</value>
+    </property>
+  </apparatus>
+  <commonProperties>
+    <property name="length" label="wavelength" units="nm" description="wavelength of detected laser light">
+      <value>632.8</value>
+    </property>
+    <property name="concentration" label="conc" units="molecule/m³" description="Nominal total carbon atom">
+      <value>2.00E+23</value>
+    </property>
+    <property name="initial composition">
+      <component>
+        <speciesLink preferredKey="C6H5CH3" primeID="s00007411" />
+        <amount units="volume fraction">0.00311</amount>
+      </component>
+      <component>
+        <speciesLink preferredKey="Ar" primeID="s00000049" />
+        <amount units="volume fraction">0.99689</amount>
+      </component>
+    </property>
+  </commonProperties>
+  <dataGroup id="dg1" label="initial and post-shock conditions" dataPointForm="XML">
+    <dataGroupLink dataGroupID=" " dataPointID="" />
+    <property name="temperature" id="x1" label="T1" units="ºC" description="Initial temperature ">
+    </property>
+    <property name="pressure" id="x2" label="P1" units="Torr" description="Initial pressure">
+    </property>
+    <property name="time" id="x3" label="Time (IND.)" units="ms" description="Time for soot appearance">
+    </property>
+    <property name="temperature" id="x4" label="T5" units="ms" description="Temperature behind reflected shock-wave">
+    </property>
+    <property name="pressure" id="x5" label="P5" units="bar" description="Pressure behind reflected shock-wave">
+    </property>
+    <property name="temperature" id="x6" label="T2" units="K" description="Temperature behind the incident shock wave">
+    </property>
+    <property name="time" id="x7" label="Time (COOL)" units="ms" description="Arriving time of cooling wave ">
+    </property>
+    <dataPoint id="dp1">
+      <x1>27.8</x1>
+      <x2>48.48</x2>
+      <x3>1.736</x3>
+      <x4>1529.2</x4>
+      <x5>1.9545</x5>
+      <x6>841</x6>
+      <x7>1.9</x7>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>25.9</x1>
+      <x2>46.97</x2>
+      <x3>1.981</x3>
+      <x4>1577</x4>
+      <x5>2.0065</x5>
+      <x6>860</x6>
+      <x7>2.67</x7>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>25.1</x1>
+      <x2>46.32</x2>
+      <x3>1.379</x3>
+      <x4>1617.6</x4>
+      <x5>2.0678</x5>
+      <x6>877</x6>
+      <x7>2.75</x7>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>25.1</x1>
+      <x2>46.77</x2>
+      <x3>1.602</x3>
+      <x4>1636.5</x4>
+      <x5>2.1252</x5>
+      <x6>885</x6>
+      <x7>2.63</x7>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>26.8</x1>
+      <x2>46.56</x2>
+      <x3>1.616</x3>
+      <x4>1637.3</x4>
+      <x5>2.0998</x5>
+      <x6>887</x6>
+      <x7>0</x7>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>26.7</x1>
+      <x2>46.18</x2>
+      <x3>0.722</x3>
+      <x4>1734.1</x4>
+      <x5>2.2745</x5>
+      <x6>928</x6>
+      <x7>0</x7>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>27.9</x1>
+      <x2>44.84</x2>
+      <x3>0.541</x3>
+      <x4>1751.9</x4>
+      <x5>2.2291</x5>
+      <x6>936</x6>
+      <x7>1.97</x7>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>27.8</x1>
+      <x2>44.31</x2>
+      <x3>0.476</x3>
+      <x4>1781.3</x4>
+      <x5>2.2598</x5>
+      <x6>949</x6>
+      <x7>2.3</x7>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>26.6</x1>
+      <x2>44.15</x2>
+      <x3>0.256</x3>
+      <x4>1816.9</x4>
+      <x5>1.9345</x5>
+      <x6>1750</x6>
+      <x7>2.785</x7>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>26.8</x1>
+      <x2>44.12</x2>
+      <x3>0.222</x3>
+      <x4>1825.4</x4>
+      <x5>2.1918</x5>
+      <x6>1760</x6>
+      <x7>2.75</x7>
+    </dataPoint>
+    <dataPoint id="dp11">
+      <x1>26.6</x1>
+      <x2>44.21</x2>
+      <x3>0</x3>
+      <x4>1830</x4>
+      <x5>2.3611</x5>
+      <x6>969</x6>
+      <x7>0</x7>
+    </dataPoint>
+    <dataPoint id="dp12">
+      <x1>26.6</x1>
+      <x2>43.3</x2>
+      <x3>0.136</x3>
+      <x4>1873.7</x4>
+      <x5>2.0345</x5>
+      <x6>1797</x6>
+      <x7>2.63</x7>
+    </dataPoint>
+    <dataPoint id="dp13">
+      <x1>26.9</x1>
+      <x2>43.19</x2>
+      <x3>0.187</x3>
+      <x4>1875.8</x4>
+      <x5>2.1972</x5>
+      <x6>1793</x6>
+      <x7>2.485</x7>
+    </dataPoint>
+    <dataPoint id="dp14">
+      <x1>26.4</x1>
+      <x2>42.87</x2>
+      <x3>0.157</x3>
+      <x4>1903.7</x4>
+      <x5>2.4305</x5>
+      <x6>1000</x6>
+      <x7>0</x7>
+    </dataPoint>
+    <dataPoint id="dp15">
+      <x1>25.5</x1>
+      <x2>41.92</x2>
+      <x3>0.287</x3>
+      <x4>1911.4</x4>
+      <x5>2.4011</x5>
+      <x6>1003</x6>
+      <x7>2.785</x7>
+    </dataPoint>
+    <dataPoint id="dp16">
+      <x1>24.8</x1>
+      <x2>41.78</x2>
+      <x3>0.149</x3>
+      <x4>1955.4</x4>
+      <x5>2.4825</x5>
+      <x6>1021</x6>
+      <x7>2.4</x7>
+    </dataPoint>
+    <dataPoint id="dp17">
+      <x1>26.6</x1>
+      <x2>43.43</x2>
+      <x3>0.266</x3>
+      <x4>1960.2</x4>
+      <x5>2.5678</x5>
+      <x6>1024</x6>
+      <x7>0</x7>
+    </dataPoint>
+    <dataPoint id="dp18">
+      <x1>27.5</x1>
+      <x2>41.74</x2>
+      <x3>0.101</x3>
+      <x4>1968.8</x4>
+      <x5>2.4731</x5>
+      <x6>1028</x6>
+      <x7>2.4</x7>
+    </dataPoint>
+    <dataPoint id="dp19">
+      <x1>27.4</x1>
+      <x2>41.69</x2>
+      <x3>0.071</x3>
+      <x4>2029.2</x4>
+      <x5>2.5825</x5>
+      <x6>1054</x6>
+      <x7>1.67</x7>
+    </dataPoint>
+    <dataPoint id="dp20">
+      <x1>26.9</x1>
+      <x2>41.7</x2>
+      <x3>0.132</x3>
+      <x4>2034.7</x4>
+      <x5>2.5998</x5>
+      <x6>1056</x6>
+      <x7>0</x7>
+    </dataPoint>
+    <dataPoint id="dp21">
+      <x1>27.5</x1>
+      <x2>41.64</x2>
+      <x3>0.05</x3>
+      <x4>2072.3</x4>
+      <x5>2.6478</x5>
+      <x6>1993</x6>
+      <x7>2.16</x7>
+    </dataPoint>
+    <dataPoint id="dp22">
+      <x1>24.9</x1>
+      <x2>40.77</x2>
+      <x3>0.037</x3>
+      <x4>2139.4</x4>
+      <x5>2.7571</x5>
+      <x6>1099</x6>
+      <x7>2.485</x7>
+    </dataPoint>
+    <dataPoint id="dp23">
+      <x1>27.1</x1>
+      <x2>40.77</x2>
+      <x3>0</x3>
+      <x4>2187.6</x4>
+      <x5>2.3278</x5>
+      <x6>2113</x6>
+      <x7>2.4</x7>
+    </dataPoint>
+    <dataPoint id="dp24">
+      <x1>27.4</x1>
+      <x2>39.91</x2>
+      <x3>0</x3>
+      <x4>2259.4</x4>
+      <x5>2.3545</x5>
+      <x6>2162</x6>
+      <x7>2.46</x7>
+    </dataPoint>
+    <dataPoint id="dp25">
+      <x1>27.4</x1>
+      <x2>38.41</x2>
+      <x3>0</x3>
+      <x4>2326.9</x4>
+      <x5>2.4771</x5>
+      <x6>2169</x6>
+      <x7>2.282</x7>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg2" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp1" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.81</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>1.2</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>1.24</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>1.3</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>1.26</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>1.25</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>1.29</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>1.42</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>1.54</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>1.76</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg3" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp2" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.16</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>0.33</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>0.39</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>0.39</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>0.44</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>0.57</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>0.8</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>1.27</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>1.89</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>2.8</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg4" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp3" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.66</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>0.97</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>1.07</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>1.21</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>1.63</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>2.4</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>3.63</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>5.46</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>7.72</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>10.64</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg5" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp4" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.21</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>0.37</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>0.61</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>0.87</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>1.18</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>1.86</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>2.92</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>4.47</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>6.54</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>9.43</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg6" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp5" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.28</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>0.42</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>0.57</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>0.72</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>0.97</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>1.51</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>2.53</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>3.85</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>5.59</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>7.95</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg7" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dp1" dataPointID="dp6" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.54</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>0.98</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>1.71</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>3.08</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>4.96</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>7.64</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>10.96</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>14.52</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>18.2</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>21.9</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dp8" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dp1" dataPointID="dg7" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.97</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>1.8</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>3.05</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>4.77</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>7.34</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>10.84</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>14.66</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>18.73</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>22.76</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>26.58</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg9" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp8" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.67</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>1.64</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>3.06</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>5.6</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>11.71</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>13.04</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>17.2</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>21.13</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>24.85</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>28.14</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg10" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp9" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.67</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>2.64</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>5.1</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>12.59</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>12.76</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>17.11</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>20.97</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>24.43</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>27.45</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>30.02</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg11" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp10" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.58</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>3.24</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>5.2</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>8.08</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>17.76</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>15.79</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>19.56</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>23.19</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>26.27</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>29.13</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg12" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp11" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.32</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>1.24</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>3.05</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>5.66</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>9.16</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>13.15</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>16.96</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>20.43</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>23.4</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>26.37</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg13" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp12" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.07</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>3.85</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>7.14</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>11.11</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>14.95</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>18.36</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>21.68</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>24.11</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>25.82</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>27.44</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg14" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp13" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.5</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>3.66</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>7.03</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>13.62</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>15.57</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>18.66</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>22.42</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>24.97</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>27.01</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>28.31</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg15" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp14" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.48</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>3.67</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>5.48</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>10.64</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>14.44</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>18.08</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>21.03</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>23.53</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>25.68</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>27.5</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg16" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp15" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.73</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>2.75</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>6.17</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>10.64</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>14.71</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>18.21</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>20.81</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>22.82</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>24.77</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>26.53</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg17" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp16" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.12</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>4.33</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>8.36</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>12.12</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>14.93</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>17.08</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>18.58</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>20.02</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>21.35</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>22.57</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg18" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp17" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>0.64</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>2.49</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>5.38</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>9.01</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>12.51</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>15.54</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>17.89</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>19.9</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>21.63</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>23.1</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg19" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp18" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.56</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>4.62</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>8.45</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>12.09</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>14.83</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>16.92</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>18.69</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>20.28</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>21.35</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>21.83</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg20" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp19" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.54</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>4.5</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>7.63</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>10.31</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>12.23</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>13.46</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>14.32</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>15.68</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>16.93</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>18</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg21" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp20" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.12</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>4.01</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>6.93</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>9.17</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>10.74</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>12.11</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>13.36</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>14.51</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>15.76</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>16.75</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg22" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp21" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.87</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>4.94</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>7.71</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>9.59</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>10.97</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>11.98</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>12.77</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>13.45</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>13.81</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>14.18</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg23" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp22" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>2.02</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>4.62</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>6.14</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>7.11</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>7.55</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>8.13</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>8.55</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>9.15</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>9.42</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>9.85</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg24" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp23" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>2.3</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>4.37</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>5.22</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>5.35</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>5.57</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>6.04</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>6.62</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>7.19</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>7.59</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>7.8</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg25" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp24" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.82</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>2.71</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>2.92</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>2.93</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>2.96</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>3.13</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>3.08</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>3.15</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>3.27</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>3.31</x2>
+    </dataPoint>
+  </dataGroup>
+  <dataGroup id="dg26" label="soot yield * E(m)" dataPointForm="XML">
+    <dataGroupLink dataGroupID="dg1" dataPointID="dp25" />
+    <property name="time" id="x1" label="time" units="ms" description="Residence time">
+    </property>
+    <property name="soot yield" id="x2" label="SY" description="soot yield * E(m)">
+    </property>
+    <dataPoint id="dp1">
+      <x1>0.25</x1>
+      <x2>1.26</x2>
+    </dataPoint>
+    <dataPoint id="dp2">
+      <x1>0.5</x1>
+      <x2>1.79</x2>
+    </dataPoint>
+    <dataPoint id="dp3">
+      <x1>0.75</x1>
+      <x2>1.84</x2>
+    </dataPoint>
+    <dataPoint id="dp4">
+      <x1>1</x1>
+      <x2>1.8</x2>
+    </dataPoint>
+    <dataPoint id="dp5">
+      <x1>1.25</x1>
+      <x2>1.75</x2>
+    </dataPoint>
+    <dataPoint id="dp6">
+      <x1>1.5</x1>
+      <x2>1.7</x2>
+    </dataPoint>
+    <dataPoint id="dp7">
+      <x1>1.75</x1>
+      <x2>1.93</x2>
+    </dataPoint>
+    <dataPoint id="dp8">
+      <x1>2</x1>
+      <x2>2.01</x2>
+    </dataPoint>
+    <dataPoint id="dp9">
+      <x1>2.25</x1>
+      <x2>2.07</x2>
+    </dataPoint>
+    <dataPoint id="dp10">
+      <x1>2.5</x1>
+      <x2>2.11</x2>
+    </dataPoint>
+  </dataGroup>
+  <additionalDataItem itemType="text" description="overall coditions">The experiments  were carried out at 2.00E+23 atoms/m3 (Nominal total carbon atom)  over  temperature  and pressure  ranges  of approximately 1529-2327K and  1.93-2.76bar.</additionalDataItem>
+  <additionalDataItem itemType="text" description="soot yield (SY) definition">SY=the concentration of carbon atoms in soot particles formed/ the initial concentration of carbon atoms of fuel.</additionalDataItem>
+  <additionalDataItem itemType="text" description="preparation note">This XML file was prepared by Dongping Chen (a graduate student of Markus Kraft at Cambridge University) from the data records provided by Michael Frenklach.  The latter records were created by UC Berkeley undergraduate students, Sam Toutounchian and Sebouh Der Kiureghian, in the Summer of 2009, by hand-copying archived printouts of experimental records collected by LSU and PennState graduate students and postdocs of Michael Frenklach.</additionalDataItem>
+</experiment>

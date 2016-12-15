@@ -1,0 +1,55 @@
+@model IEnumerable<WebAppCore.Models.BookViewModel.BookBase>
+
+
+@if (Model != null && Model.Any())
+{
+    <div id="search-list" class="search-list">
+        <table class="table table-hover">
+            <thead>
+            <tr class="info">
+                <th>
+                    #
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Url)
+                </th>
+
+            </tr>
+            </thead>
+            <tbody>
+
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Url)
+                    </td>
+                </tr>
+            }
+
+            </tbody>
+        </table>
+    </div>
+}
+else if (Model != null)
+{
+    <div class="search-message-block" id="message-search">
+        <button id="close-button"
+                onclick="$('#message-search').hide(500);"
+                type="button" class="close" aria-label="Close" style="right: 0; top: 0; float: right;"><span aria-hidden="true">&times;</span></button>
+        <h4 class="search-message-title">Not Found</h4>
+        <p>
+            Try some else search request.
+        </p>
+    </div>
+}

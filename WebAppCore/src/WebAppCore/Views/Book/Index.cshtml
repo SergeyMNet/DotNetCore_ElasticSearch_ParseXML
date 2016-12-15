@@ -1,0 +1,61 @@
+@model IEnumerable<WebAppCore.Models.BookViewModel.BookBase>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<legend style="padding: 20px; margin: 10px;">All books</legend>
+
+
+@if (Model.Any())
+{
+<table class="table table-hover">
+    <thead>
+    <tr class="info">
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Url)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Url)
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.ID" class="all-remove-button glyphicon glyphicon-remove"></a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+}
+else
+{
+    <div class="search-message-block" id="message-search">
+        <button id="close-button"
+                onclick="$('#message-search').hide(500);"
+                type="button" class="close" aria-label="Close" style="right: 0; top: 0; float: right;">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="search-message-title">Not Found</h4>
+        <p>
+            Elasticsearch responded with a 404 status. Check connection.
+        </p>
+    </div>
+}

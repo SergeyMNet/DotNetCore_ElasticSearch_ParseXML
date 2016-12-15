@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataAttribute type="target" xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="a00000007" xsi:schemaLocation="http://purl.org/NET/prime/                                   http://warehouse.primekinetics.org/schema/dataAttribute.xsd">
+  <copyright>©primekinetics.org 2008</copyright>
+  <origin type="primeID">b00014718</origin>
+  <preferredKey group="prime">GRI-Mech 3.0 - IG.T2</preferredKey>
+  <propertyLink dataGroupID="dg1" experimentPrimeID="x00000001" id="T" propertyID="x1" />
+  <propertyLink dataGroupID="dg1" experimentPrimeID="x00000001" id="t_ign" propertyID="x2" />
+  <feature id="log(t_ign)-1/T" type="ignitionDelayAt">
+    <indicator id="1/T" propertyID="T" transformation="inverse" />
+    <observable id="log(t_ign)" propertyID="t_ign" transformation="log10" />
+  </feature>
+  <dataAttributeValue type="derived">
+    <indicator featureID="log(t_ign)-1/T" id="T" propertyID="1/T" transformation="inverse">
+      <property name="temperature" units="K" label="T" description="post-shock temperature">
+        <value>1640</value>
+      </property>
+    </indicator>
+    <observable featureID="log(t_ign)-1/T" id="t_ign" propertyID="log(t_ign)" transformation="10^">
+      <property name="time" units="µs" label="t_ign" description="ignition delay">
+        <value>63.2</value>
+      </property>
+      <bounds kind="relative" source="b00014796">
+        <upper id="ub">1.2</upper>
+        <lower id="lb">0.8</lower>
+      </bounds>
+    </observable>
+  </dataAttributeValue>
+  <additionalDataItem itemType="text" description="dataAttribute description" MIME=" ">
+      Ignition delay of stoichiometric CH4-C3H8-O2 diluted in Ar at 1640 K, 7.1 atm
+      The dataAttribute was selected to represent average experimental conditions for runs reported at temperatures near 1640 K, which were actually done at a wide range of pressures. The measured ignition delays are normalized to the average pressure of their 6 data points (7.095 atm). The dataAttribute ignition delay at this pressure is the value given by the regression line for 1000/T = 6.1.
+   </additionalDataItem>
+</dataAttribute>

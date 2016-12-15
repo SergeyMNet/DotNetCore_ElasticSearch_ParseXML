@@ -1,0 +1,34 @@
+@model WebAppCore.Models.BookViewModel.BookBase
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<legend style="padding: 20px;">Delete</legend>
+
+<center><h3 class="bg-info" style="margin: 20px; padding: 20px;">Are you sure you want to delete this?</h3></center>
+<div>
+    
+    <dl class="dl-horizontal " style="padding: 20px; margin-top: 20px; margin-bottom: 20px;">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Url)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Url)
+        </dd>
+    </dl>
+    <center>
+        <form asp-action="Delete">
+            <div class="form-actions no-color">
+                <a asp-action="Index" class="btn btn-default" >Back to List</a>
+                <input type="submit" value="Delete" class="btn btn-danger" /> 
+            </div>
+        </form>
+    </center>    
+</div>

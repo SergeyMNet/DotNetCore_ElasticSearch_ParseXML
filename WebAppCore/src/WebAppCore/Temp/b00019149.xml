@@ -1,0 +1,16 @@
+<bibliography xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="b00019149" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/bibliography.xsd">
+  <copyright>©primekinetics.org 2016</copyright>
+  <preferredKey>Hermanns et al., 2007</preferredKey>
+  <referenceType>journal article</referenceType>
+  <referenceStatus>published</referenceStatus>
+  <author>Hermanns, RTE</author>
+  <author>Konnov, AA</author>
+  <author>Bastiaans, RJM</author>
+  <author>De Goey, LPH</author>
+  <year>2007</year>
+  <title>Laminar Burning Velocities of Diluted Hydrogen−Oxygen−Nitrogen Mixtures</title>
+  <journal>Energy Fuels</journal>
+  <volume>21</volume>
+  <issue>4</issue>
+  <pages>1977–1981</pages>
+</bibliography>

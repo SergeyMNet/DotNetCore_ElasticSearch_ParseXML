@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bibliography xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="b00003893" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/bibliography.xsd">
+  <copyright>©primekinetics.org 2005</copyright>
+  <content bibliography="b00014319" copyrighted="true" source="©NIST">Elements attributed to NIST are part of a collection copyrighted by NIST.</content>
+  <referenceType>journal article</referenceType>
+  <referenceStatus>published</referenceStatus>
+  <author source="©NIST">Peeters, J.</author>
+  <author source="©NIST">Vinckier, C.</author>
+  <year source="©NIST">1975</year>
+  <title source="©NIST">Production of Chemi-ions and Formation of CH and CH_2 Radicals in Methane-Oxygen and Ethylene Oxygen Flames</title>
+  <journal source="©NIST">Symp. Int. Combust. Proc.</journal>
+  <volume source="©NIST">15</volume>
+  <pages source="©NIST">969</pages>
+</bibliography>

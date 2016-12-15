@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<chemicalSpecies xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="s00003607" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/species.xsd">
+  <copyright>©primekinetics.org 2005</copyright>
+  <content bibliography="b00014319" copyrighted="true" source="©NIST">Elements attributed to NIST are part of a collection copyrighted by NIST.</content>
+  <preferredKey group="prime" type="formula">C3H6O</preferredKey>
+  <chemicalIdentifier>
+    <name source="©NIST" type="CASRegistryNumber">107-18-6</name>
+    <name source="©NIST" type="formula">C3H6O</name>
+    <name source="©NIST">CH2=CHCH2OH</name>
+    <name source="©NIST">1-propen-3-ol</name>
+    <name source="©NIST">1-propenol-3</name>
+    <name source="©NIST">2-propen-1-ol</name>
+    <name source="©NIST">2-propene-1-ol</name>
+    <name source="©NIST">2-propenol</name>
+    <name source="©NIST">2-propenyl alcohol</name>
+    <name source="©NIST">3-hydroxy-1-propene</name>
+    <name source="©NIST">3-hydroxypropene</name>
+    <name source="©NIST">aa</name>
+    <name source="©NIST">aaalcool allilco</name>
+    <name source="©NIST">alcool allilco</name>
+    <name source="©NIST">alcool allylique</name>
+    <name source="©NIST">allilowy alkohol</name>
+    <name source="©NIST">allyl al</name>
+    <name source="©NIST">allyl alcohol</name>
+    <name source="©NIST">allylalkohol</name>
+    <name source="©NIST">allylic alcohol</name>
+    <name source="©NIST">ch2=chch2oh</name>
+    <name source="©NIST">orvinylcarbinol</name>
+    <name source="©NIST">propen-1-ol-3</name>
+    <name source="©NIST">propenol</name>
+    <name source="©NIST">propenyl alcohol</name>
+    <name source="©NIST">rcra waste number p005</name>
+    <name source="©NIST">shell unkrautted a</name>
+    <name source="©NIST">shell unkrauttod a</name>
+    <name source="©NIST">un 1098</name>
+    <name source="©NIST">vinylcarbinol</name>
+    <name source="©NIST">weed drench</name>
+    <name type="InChI">InChI=1/C3H6O/c1-2-3-4/h2,4H,1,3H2</name>
+  </chemicalIdentifier>
+  <chemicalComposition>
+    <atom symbol="C">3</atom>
+    <atom symbol="H">6</atom>
+    <atom symbol="O">1</atom>
+  </chemicalComposition>
+</chemicalSpecies>

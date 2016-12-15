@@ -1,0 +1,8 @@
+ <reaction xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="r00001365" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/reaction.xsd">
+  <copyright>©primekinetics.org 2005</copyright>
+ <reactants>
+  <speciesLink preferredKey="CH2O" primeID="s00009076">-1</speciesLink>
+  <speciesLink preferredKey="CH" primeID="s00009010">-1</speciesLink>
+  <speciesLink preferredKey="CH2CHO" primeID="s00002559">1</speciesLink>
+  </reactants>
+  </reaction>

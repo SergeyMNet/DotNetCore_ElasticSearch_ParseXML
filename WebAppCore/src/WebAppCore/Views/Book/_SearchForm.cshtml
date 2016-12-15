@@ -1,0 +1,18 @@
+﻿@model WebAppCore.Models.BookViewModel.SearchModel
+
+<div class="search-form" >
+    <form asp-controller="Book" asp-action="Search" id="form-search" method="post" class="form-group ">
+        <div class="col-xs-10">
+            <input asp-for="SearchQuery" class="form-control" placeholder="Search text..." />
+        </div>
+        <div class="col-xs-2" style="right: 0;">
+            <button id="sub-button" class="btn btn-primary" type="submit">Search</button>
+        </div>
+    </form>
+</div>
+
+<center >
+    <img id="img-load" src="~/images/load.gif" />
+</center>
+
+
