@@ -66,8 +66,9 @@ textarea {
 
 .search-form {
     padding-top: 20px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
     margin: 10px;
+    margin-bottom: 0;
     right: 0;
     left: 0;
 }
@@ -136,6 +137,42 @@ textarea {
         color: rgb(221, 0, 0);
 }
 
+.all-download-button {
+    font-size: 20px; 
+    padding: 10px; 
+    top: 0; 
+    bottom: 0; 
+    color: rgb(0, 109, 212);
+}
+
+.all-download-button:hover {
+    text-decoration: none;
+    color: rgb(0, 131, 255);
+}
+
+.all-download-button:after {
+    text-decoration: none;
+    color: rgb(0, 109, 212);
+}
+
+
+.all-show-button {
+    font-size: 20px; 
+    padding: 10px; 
+    top: 0; 
+    bottom: 0; 
+    color: rgb(104, 156, 214);
+}
+.all-show-button:hover {
+    text-decoration: none;
+    color: rgb(123, 185, 255);
+}
+
+.all-show-button:after {
+    text-decoration: none;
+    color: rgb(104, 156, 214);
+}
+
 
 #filedrag
 {
@@ -187,3 +224,6 @@ textarea {
     display: none;
 }
 
+#search-settings {
+    
+}

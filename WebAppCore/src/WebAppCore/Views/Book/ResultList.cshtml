@@ -1,0 +1,70 @@
+﻿@model System.Collections.Generic.List<WebAppCore.Models.BookViewModel.BookBase>
+
+<div id="content">
+
+    <center>
+        <img id="img-load" src="~/images/load.gif" />
+    </center>
+
+    @if (Model != null && Model.Any())
+    {
+        <div id="search-list" class="search-list">
+            <table class="table table-hover">
+                <thead>
+                    <tr class="info">
+                        <th>
+                            #
+                        </th>
+                        <th>
+                            Title
+                        </th>
+                        <th>
+                            Category
+                        </th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Title)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Category)
+                            </td>
+                            <td>
+                                <a href="@Html.DisplayFor(modelItem => item.Url)" class="all-download-button glyphicon glyphicon-download" download style="float: right;"></a>
+                                <a href="http://localhost:3387/Book/GetXml?filePath= @Html.DisplayFor(modelItem => item.Url)" class="all-show-button glyphicon glyphicon-eye-open" target="_blank" style="float: right;"></a>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    }
+    else if (Model != null)
+    {
+        <div class="search-message-block" id="message-search">
+            <button id="close-button"
+                    onclick="$('#message-search').hide(500);"
+                    type="button" class="close" aria-label="Close" style="right: 0; top: 0; float: right;">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="search-message-title">Not Found</h4>
+            <p>
+                Try some else search request.
+            </p>
+        </div>
+    }
+
+
+</div>

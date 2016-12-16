@@ -5,6 +5,8 @@
 <div>
     @await Html.PartialAsync("_SearchForm", @Model.SearchModel)
     
+    @*@await Html.PartialAsync("_SearchSettings", @Model.SearchSettingsVm)*@
+
     @await Html.PartialAsync("_ResultList", @Model.Books)
 </div>
 

@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{194ECD95-D958-424F-A179-DF91F02D9266}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAppCore", "src\WebAppCore\WebAppCore.xproj", "{9FAD1505-55F4-453E-BD42-E77305CBAF7B}"

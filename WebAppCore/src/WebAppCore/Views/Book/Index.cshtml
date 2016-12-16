@@ -1,4 +1,4 @@
-@model IEnumerable<WebAppCore.Models.BookViewModel.BookBase>
+@model WebAppCore.Models.BookViewModel.ListBooksVM
 
 @{
     ViewData["Title"] = "Index";
@@ -7,43 +7,65 @@
 <legend style="padding: 20px; margin: 10px;">All books</legend>
 
 
-@if (Model.Any())
+@if (Model.BookBases.Any())
 {
-<table class="table table-hover">
-    <thead>
-    <tr class="info">
-        <th>
-            @Html.DisplayNameFor(model => model.Title)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Category)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Url)
-        </th>
-        <th></th>
-    </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Url)
-            </td>
-            <td>
-                <a asp-action="Delete" asp-route-id="@item.ID" class="all-remove-button glyphicon glyphicon-remove"></a>
-            </td>
+    <table class="table table-hover">
+        <thead>
+        <tr class="info">
+            <th>
+                Title
+            </th>
+            <th>
+                Category
+            </th>
+        
+            <th></th>
         </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.BookBases)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+                <td >
+                
+                    <a asp-action="Delete" asp-route-id="@item.ID" class="all-remove-button glyphicon glyphicon-remove" style="float: right;"></a>
+                    <a href="@Html.DisplayFor(modelItem => item.Url)" class="all-download-button glyphicon glyphicon-download" download style="float: right;"></a>
+                    <a href="http://localhost:3387/Book/GetXml?filePath= @Html.DisplayFor(modelItem => item.Url)" class="all-show-button glyphicon glyphicon-eye-open" target="_blank" style="float: right;"></a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    if (Model.CountPages != 0 || Model.CurentPage != 0)
+    {
+       
+
+
+
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                
+                @for (int i = 1; i <= Model.CountPages; i++)
+                {
+                    if (Model.CurentPage == i)
+                    {
+                        <li class="active"> <a asp-action="Index" asp-route-page="@i" >@i</a></li>
+                    }
+                    else
+                    {
+                        <li><a asp-action="Index" asp-route-page="@i" >@i</a></li>
+                    }
+                }
+            </ul>
+        </nav>
     }
-    </tbody>
-</table>
 }
 else
 {
@@ -58,4 +80,41 @@ else
             Elasticsearch responded with a 404 status. Check connection.
         </p>
     </div>
+}
+
+<div id="my-element"></div>
+
+@section scripts
+{
+    @*<script type="text/javascript">
+
+        $(document)
+            .ready(function () {
+
+
+
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:3387/Book/GetXml?filePath=C:/Users/Admin/documents/visual%20studio%202015/Projects/WebAppCore/src/WebAppCore/Temp/s00000638.xml",
+                    dataType: "xml",
+                    success: function(xml) {
+
+                        function xmlToString(xmlNode) {
+                            if (xmlNode.xml)
+                                return xmlNode.xml;
+                            else if (XMLSerializer) {
+                                var xml_serializer = new XMLSerializer();
+                                return xml_serializer.serializeToString(xmlNode);
+                            } else {
+                                alert("ERROR: Extremely old browser");
+                                return "";
+                            }
+                        }
+
+                        // display in alert box
+                        alert(xmlToString(xml));
+                    }
+                });
+            });
+    </script>*@
 }

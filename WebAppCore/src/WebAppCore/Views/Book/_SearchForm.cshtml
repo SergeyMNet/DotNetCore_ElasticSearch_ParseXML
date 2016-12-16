@@ -1,18 +1,34 @@
 ﻿@model WebAppCore.Models.BookViewModel.SearchModel
 
-<div class="search-form" >
-    <form asp-controller="Book" asp-action="Search" id="form-search" method="post" class="form-group ">
-        <div class="col-xs-10">
-            <input asp-for="SearchQuery" class="form-control" placeholder="Search text..." />
-        </div>
-        <div class="col-xs-2" style="right: 0;">
-            <button id="sub-button" class="btn btn-primary" type="submit">Search</button>
+<div class="search-form">
+    
+    <form asp-controller="Book" asp-action="Search" data-ajax="true" data-ajax-method="POST"
+          data-ajax-mode="replace" data-ajax-update="#content"
+          id="form-search" class="form-group" ons>
+        
+        <div class="col-xs-12 input-group">
+
+            <select asp-for="Category" name="Category" class="form-control" id="sel_cat" style="width: 20%; float: left; min-width: 70px;" 
+                    onchange="category_changed()">
+                <option>all</option>
+            </select>
+            <select asp-for="Field" name="Field" class="form-control" id="sel_field" style="width: 20%; float: left;">
+                <option>all</option>
+            </select>
+
+            <input asp-for="SearchQuery" class="form-control" placeholder="Search text..." style="width: 60%;" />
+            <div class="input-group-btn">
+                <button id="sub-button" class="btn btn-primary" type="submit">Search</button>
+            </div>
         </div>
     </form>
+
 </div>
 
-<center >
-    <img id="img-load" src="~/images/load.gif" />
-</center>
+
+
+
+
+
 
 

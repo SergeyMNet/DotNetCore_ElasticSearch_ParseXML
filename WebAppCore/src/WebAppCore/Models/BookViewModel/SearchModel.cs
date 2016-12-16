@@ -11,5 +11,8 @@ namespace WebAppCore.Models.BookViewModel
         [Required]
         [StringLength(100)]
         public string SearchQuery { get; set; }
+
+        public string Category { get; set; }
+        public string Field { get; set; }
     }
 }

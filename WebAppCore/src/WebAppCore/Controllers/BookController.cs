@@ -1,36 +1,73 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebAppCore.Data;
 using WebAppCore.Models.BookViewModel;
-using System.Xml.Linq;
 using System.Xml;
 using Microsoft.AspNetCore.Http;
-using NuGet.Protocol.Core.v3;
+using Newtonsoft.Json;
 using WebAppCore.Services;
+
 
 namespace WebAppCore.Controllers
 {
     public class BookController : Controller
     {
         private readonly StorageContext _context;
-
-        public BookController(StorageContext context)
+        private readonly IElasticSearch _elasticSearch;
+        
+        public BookController(StorageContext context, IElasticSearch elasticSearch)
         {
-            _context = context;    
+            _context = context;
+            _elasticSearch = elasticSearch;
+
+            
+        }
+
+        // GET: Book/GetCategories
+        [HttpGet]
+        public IActionResult GetCategories()
+        {
+            return Json(_elasticSearch.GetAllTypes());
+        }
+
+        // GET: Book/GetFields?cat={category name}
+        [HttpGet]
+        public IActionResult GetFields(string cat)
+        {
+            return Json(_elasticSearch.GetAllFields(cat));
         }
 
 
+        // GET: Book/GetXml?filePath={some url}
+        [HttpGet]
+        public IActionResult GetXml(string filePath)
+        {
+            if (filePath == null)
+                return NotFound();
 
+            try
+            {
+                using (var stream = new FileStream(filePath, FileMode.Open))
+                {
+                    var doc = new XmlDocument();
+                    doc.Load(stream);
+
+                    return Content(doc.InnerXml, "text/xml");
+                }
+            }
+            catch (Exception)
+            {
+                return NotFound();
+            }
+        }
+
+
+        
         // GET: Book/Search
         [HttpGet]
         public IActionResult Search()
@@ -43,7 +80,8 @@ namespace WebAppCore.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Search(SearchModel q)
         {
-            await Task.Delay(1000);
+            var isAjax = HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest";
+
 
             if (String.IsNullOrEmpty(q.SearchQuery))
             {
@@ -51,19 +89,13 @@ namespace WebAppCore.Controllers
             }
 
             // ES
-            var es = new ElasticSearch();
-            var elRes = es.Search(q.SearchQuery);
-
-            //var result = new SearchVM(_context.Books.Where(b => b.Title.Contains(q.SearchQuery)).ToList());
-
-            var result = new SearchVM(new List<BookBase>());
-            foreach (var re in elRes)
-            {
-                result.Books.Add(_context.Books.FirstOrDefault(b => b.ID == re));
-            }
+            List<BookBase> elRes = _elasticSearch.Search(q);
             
 
-            ViewBag.Message = "";
+            var result = new SearchVM(elRes);
+            
+            await Task.Delay(1000);
+            
             return View(result);
         }
 
@@ -136,8 +168,8 @@ namespace WebAppCore.Controllers
                             
                             #region ES
                             // ES
-                            var es = new ElasticSearch();
-                            result = es.SaveObject(filePath); 
+                            
+                            result = _elasticSearch.SaveObject(filePath); 
                             #endregion
                         }
                     }
@@ -160,14 +192,19 @@ namespace WebAppCore.Controllers
         
 
         // GET: Book
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            var es = new ElasticSearch();
-            var elRes = es.GetAll(0, 2000);
+            double maxItems = _elasticSearch.GetCount();
 
-            return View(elRes);
+            int pageSize = 5;
+            int countPages = (int)Math.Ceiling(maxItems / pageSize);
+            int startIndex = (page*pageSize) - pageSize;
+            var res = _elasticSearch.GetAll(startIndex, pageSize);
+            var resVM = new ListBooksVM(res);
+            resVM.CurentPage = page;
+            resVM.CountPages = (int) countPages;
 
-            //return View(await _context.Books.ToListAsync());
+            return View(resVM);
         }
 
         // GET: Book/Details/5
@@ -268,7 +305,14 @@ namespace WebAppCore.Controllers
                 return NotFound();
             }
 
-            var bookBase = await _context.Books.SingleOrDefaultAsync(m => m.ID == id);
+            //var bookBase = await _context.Books.SingleOrDefaultAsync(m => m.ID == id);
+            //if (bookBase == null)
+            //{
+            //    return NotFound();
+            //}
+
+            var bookBase = _elasticSearch.GetById(id);
+
             if (bookBase == null)
             {
                 return NotFound();
@@ -282,9 +326,18 @@ namespace WebAppCore.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
+            #region DB
+
             var bookBase = await _context.Books.SingleOrDefaultAsync(m => m.ID == id);
-            _context.Books.Remove(bookBase);
-            await _context.SaveChangesAsync();
+            if (bookBase != null)
+            {
+                _context.Books.Remove(bookBase);
+                await _context.SaveChangesAsync();
+            } 
+            #endregion
+
+            _elasticSearch.Delete(id);
+
             return RedirectToAction("Index");
         }
 

@@ -50,7 +50,8 @@
     "System.Xml.XmlDocument": "4.0.1",
     "Microsoft.AspNet.WebApi.Client": "5.2.3",
     "NEST": "5.0.0",
-    "Elasticsearch.Net": "5.0.0"
+    "Elasticsearch.Net": "5.0.0",
+    "Microsoft.jQuery.Unobtrusive.Ajax": "3.2.3"
   },
 
   "tools": {

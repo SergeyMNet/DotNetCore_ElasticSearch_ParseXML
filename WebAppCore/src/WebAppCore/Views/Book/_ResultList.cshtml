@@ -1,6 +1,11 @@
 @model IEnumerable<WebAppCore.Models.BookViewModel.BookBase>
 
 
+
+<center>
+    <img id="img-load" src="~/images/load.gif" />
+</center>
+
 @if (Model != null && Model.Any())
 {
     <div id="search-list" class="search-list">
@@ -14,9 +19,10 @@
                     @Html.DisplayNameFor(model => model.Title)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Url)
+                    @Html.DisplayNameFor(model => model.Category)
                 </th>
-
+                <th>
+                </th>
             </tr>
             </thead>
             <tbody>
@@ -32,7 +38,11 @@
                         @Html.DisplayFor(modelItem => item.Title)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Url)
+                        @Html.DisplayFor(modelItem => item.Category)
+                    </td>
+                    <td>
+                        <a href="@Html.DisplayFor(modelItem => item.Url)" class="all-download-button glyphicon glyphicon-download" download style="float: right;"></a>
+                        <a href="http://localhost:3387/Book/GetXml?filePath= @Html.DisplayFor(modelItem => item.Url)" class="all-show-button glyphicon glyphicon-eye-open" target="_blank" style="float: right;"></a>
                     </td>
                 </tr>
             }
@@ -53,3 +63,5 @@ else if (Model != null)
         </p>
     </div>
 }
+
+
